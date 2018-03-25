@@ -1,0 +1,9 @@
+---
+layout: default
+pagination:
+  enabled: true
+---
+
+{% for animal in paginator.posts %}
+  <h1>{{ animal.title }}</h1>
+{% endfor %}
